@@ -9,6 +9,9 @@ Key limitations to keep in mind:
 
 ![MP3 Player Hardware](/MP3_player.png)
 
+[Update]
+- I decided to power the ESP32 from the 5V pin. The current regulator makes it more stable. The schematics had been updated
+ 
 ## Components
 - ESP32 C3 Super Mini;
 - DAC PCM5102a;
@@ -29,3 +32,26 @@ Key limitations to keep in mind:
 
 ## Wiring Schematics
 ![Wiring Schematics](/Schematics.png)
+
+**Controls**
+- Pin 0: Potenciometer
+- Pin 1: Button Down
+- Pin 2: Button Up
+- Pin 8: Button Enter
+
+**DAC**
+- Pin 3: DIN
+- Pin 20: BCK
+- Pin 21: LRCK
+- Jumper H4L on LOW State
+- XSMT (3) on VIN
+
+**SD Card Module**
+- Pin 4: SCK
+- Pin 5: MISO
+- Pin 6: MOSI
+- Pin 7: CS
+
+**OLED Display**
+- Pin 9: SCK
+- Pin 10: SDA
