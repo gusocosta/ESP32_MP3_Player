@@ -9,8 +9,6 @@ Key limitations to keep in mind:
 
 ![MP3 Player Hardware](/MP3_player.png)
 
-[Update]
-- I decided to power the ESP32 from the 5V pin. The current regulator makes it more stable. The schematics had been updated
  
 ## Components
 - ESP32 C3 Super Mini;
